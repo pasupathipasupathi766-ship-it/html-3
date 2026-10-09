@@ -1,19 +1,43 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Basic CSS Selectors</title>
 
     <style>
-        /* Write your CSS here */
+        /* Element Selector */
+        h1 {
+            color: blue;
+            text-align: center;
+        }
 
+        /* ID Selector */
+        #para1 {
+            color: red;
+        }
+
+        /* Class Selector */
+        .para {
+            color: green;
+            font-size: 20px;
+        }
+
+        /* Universal Selector */
+        * {
+            font-family: Arial;
+        }
     </style>
-
 </head>
 
 <body>
 
-     /* Write your html code to structure your web page here */
+    <h1>Basic CSS Selectors</h1>
+
+    <p id="para1">This is an ID selector.</p>
+
+    <p class="para">This is a class selector.</p>
+
+    <p>This is an element selector.</p>
 
 </body>
 </html>
